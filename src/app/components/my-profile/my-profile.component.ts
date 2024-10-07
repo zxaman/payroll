@@ -14,7 +14,7 @@ import { MatCardModule } from '@angular/material/card';
       </mat-card-header>
       <mat-card-content>
         <p>Employee ID: EMP001</p>
-        <p>Email: john.doe@example.com</p>
+        <p>Email: john.doeexample.com</p>
         <p>Phone: +1 234 567 8900</p>
         <p>Date of Joining: 01/01/2020</p>
       </mat-card-content>

@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { MatTableModule } from '@angular/material/table';
 
 @Component({
   selector: 'app-salary-structure',
   standalone: true,
-  imports: [MatTableModule],
+  imports: [CommonModule, MatTableModule],
   template: `
     <h2>Salary Structure</h2>
     <table mat-table [dataSource]="salaryComponents">
@@ -24,9 +25,9 @@ import { MatTableModule } from '@angular/material/table';
 export class SalaryStructureComponent {
   displayedColumns: string[] = ['component', 'amount'];
   salaryComponents = [
-    {component: 'Basic Salary', amount: 5000},
-    {component: 'HRA', amount: 2000},
-    {component: 'Transport Allowance', amount: 800},
-    {component: 'Medical Allowance', amount: 1200},
+    { component: 'Basic Salary', amount: 5000 },
+    { component: 'HRA', amount: 2000 },
+    { component: 'Transport Allowance', amount: 800 },
+    { component: 'Medical Allowance', amount: 1200 },
   ];
 }

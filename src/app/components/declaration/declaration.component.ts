@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
   selector: 'app-declaration',
   standalone: true,
   imports: [MatFormFieldModule, MatInputModule, MatButtonModule, FormsModule],
+  styleUrls: ['./declaration.component.scss'],
   template: `
     <h2>Declaration</h2>
     <form>

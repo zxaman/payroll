@@ -1,0 +1,18 @@
+.bank-details-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+  
+    mat-form-field {
+      margin-bottom: 16px;
+    }
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #3f51b5;
+      font-weight: 600;
+    }
+  }
+  
